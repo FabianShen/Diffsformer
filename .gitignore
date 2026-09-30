@@ -1,0 +1,19 @@
+# Python bytecode cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Pipeline data cache (generated artifacts)
+cache/
+
+# Local-only duplicate of the canonical root model
+model/diffsformer_model.py
+
+# IDE settings
+.vscode/
+
+# Python tool caches
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.ipynb_checkpoints/
